@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+aheadfork = "python aheadfork.py"
+start = "python app.py"
+
+[packages]
+requests = "*"
+getpass4 = "*"
+json5 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
